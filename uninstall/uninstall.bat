@@ -1,2 +1,2 @@
-echo YOU ARE UNINSTALLING ToolWare-Basic
+echo YOU ARE UNINSTALLING ToolWare
 del ../ /p 
