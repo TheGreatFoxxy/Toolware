@@ -1,0 +1,81 @@
+	TOOLWARE - BASIC
+
+Current vers: v1.0.0
+Files contained:
+	- toolware-basic.js
+	- toolware-basic.css
+	- toolware-basic.html
+	- toolware-basic.png
+	- toolware-basic.txt
+	- Manual/Toolbar-basic-manual.html
+	- uninstall/ uninstall.bat
+
+Description:
+Toolware is built for web developers who want ot allow their visitors to
+alter the way they see the page to their needs. Similar to Bootstrap,
+you can host Toolware on your server, or use Head-Links to use the REMOTE
+host, then use the installation insructions below to use it on your page.
+
+INSTALLATION:
+
+MEOTHOD ONE - LOCAL HOSTING [HIGHLY RECOMMENDED]
+
+Clone the Toolware Basic package from:
+https://github.com/TheGreatFoxxy/Toolware-basic.git
+
+Or go to:
+https://github.com/TheGreatFoxxy/Toolware-basic/
+And click Download .zip.
+
+You will receive a .zip file either way. Extract it to the path from your
+page html file:
+./toolware-basic
+
+Insert these lines of code into your pages' HEAD block:
+
+<link href="./toolware-basic/toolware-basic.css" rel="preload" as="stylesheet">
+<link href="./toolware-basic/toolware-basic.js" rel="preload" as="script">
+<link href="./toolware-basic/toolware-basic.html" rel="preload" as="toolbar">
+<link href="./toolware-basic/toolware.png" rel="preload" as="image">
+<link href="./toolware-basic/toolware.html" rel="preload" as="manual">
+
+Insert this line of code into your SCRIPT block:
+
+<script src="./toolware-basic/toolware-basic.js"></script>
+
+Insert this line of code into your STYLE block:
+
+<style src="./toolware-basic/toolware-basic.css"></style>
+
+Insert these lines of code into your BODY block wherever you want your toolbar to be:
+
+<iframe href="./toolware-basic/toolware-basic.html" width="auto" height="auto" alt="Toolware Basic Toolbar"></iframe>
+<noscript><h3>ENABLE JAVASCRIPT TO USE TOOLWARE-BASIC</h3></noscript>
+
+MEOTHOD TWO: REMOTE HOSTING [NOT RECOMMENDED]
+(NOT IMPLEMETNABLE AS OF 9/11/2020)
+
+Insert these lines of code into your pages' HEAD block:
+
+<link href="https://github.com/TheGreatFoxxy/Toolware-Basic/toolware-basic.css" rel="preload" as="stylesheet">
+<link href="https://github.com/TheGreatFoxxy/Toolware-Basic/toolware-basic.js" rel="preload" as="script">
+<link href="https://github.com/TheGreatFoxxy/toolware-basic/toolware-basic.html" rel="preload" as="toolbar">
+<link href="https://github.com/TheGreatFoxxy/Toolware-Basic/toolware.png" rel="preload" as="image">
+<link href="https://github.com/theGreatFoxxy/Toolware-Basic/toolware.html" rel="preload" as="manual">
+
+Insert this line of code into your SCRIPT block:
+
+<script src="https://github.com/TheGreatFoxxy/Toolware-Basic/toolware-basic.js"></script>
+
+Insert this line of code into your STYLE block:
+
+<style src="https://github.com/TheGreatFoxxy/Toolware-Basic/toolware-basic.css"></style>
+
+Insert these lines of code into your BODY block wherever you want your toolbar to be:
+
+<iframe href="https://thegreatfoxxy.github/Toolware-Basic/toolware-basic-controller.html" width="auto" height="auto" alt="Toolware Basic Toolbar"></iframe>
+<noscript><h3>ENABLE JAVASCRIPT TO USE TOOLWARE-BASIC</h3></noscript>
+
+
+LICENSING:
+Not Yet Licensed
