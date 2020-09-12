@@ -1,0 +1,179 @@
+/* Toolware+
+*  Plus CSS Class List
+*  Written 9/11-12/2020
+*  Current Version: v0.0.1
+*/
+.dark-mode {
+background-color: black;
+color: white;
+}
+.bright-mode {
+background-color: yellow;
+color: black;
+}
+.red-mode {
+background-color: red;
+color: black;
+}
+.blue-mode {
+background-color: blue;
+color: black;
+}
+.green-mode {
+background-color: green;
+color: black;
+}
+.orange-mode {
+background-color: orange;
+color: black;
+}
+.terminal-mode {
+background-color: black;
+color: green;
+font-family: consolas;
+}
+.sans-serif-text {
+    font-family: sans-serif;
+}
+.toolbar-button {
+outline-style: solid;
+outline-width: 2px;
+outline-color: black;
+background-color: gray;
+color: black;
+}
+.toolbar-button:hover {
+outline-style: solid;
+outline-width: 3px;
+outline-color: black;
+background-color: grey;
+color: white;
+}
+.dark-mode-button {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+    background-color: black;
+    color: white;
+}
+.dark-mode-button:hover {
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: black;
+    background-color: black;
+    color: white;
+}
+.bright-mode-button {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+    background-color: yellow;
+    color: black;
+}
+.bright-mode-button:hover {
+outline-style: solid;
+outline-width: 3px;
+outline-color: black;
+background-color: yellow;
+color: black;
+}
+.red-mode-button {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+    background-color: red;
+    color: black;
+}
+.red-mode-button:hover {
+outline-style: solid;
+outline-width: 3px;
+outline-color: black;
+background-color: red;
+color: black;
+}
+.blue-mode-button {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+    background-color: blue;
+    color: black;
+}
+.blue-mode-button:hover {
+outline-style: solid;
+outline-width: 3px;
+outline-color: black;
+background-color: blue;
+color: black;
+}
+.green-mode-button {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+    background-color: green;
+    color: black;
+}
+.green-mode-button:hover {
+outline-style: solid;
+outline-width: 3px;
+outline-color: black;
+background-color: green;
+color: black;
+}
+.orange-mode-button {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+    background-color: orange;
+    color: black;
+}
+.orange-mode-button:hover {
+outline-style: solid;
+outline-width: 3px;
+outline-color: black;
+background-color: orange;
+color: black;
+}
+.terminal-mode-button {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+    background-color: black;
+    color: green;
+}
+.terminal-mode-button:hover {
+outline-style: solid;
+outline-width: 3px;
+outline-color: black;
+background-color: black;
+color: green;
+}
+.sans-serif-text-button {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+    background-color: grey;
+    color: white;
+    }
+ .sans-serif-text-button:hover:hover {
+     outline-style: solid;
+     outline-width: 3px;
+     outline-color: black;
+     background-color: grey;
+     color: white;
+     }
+.toolbar {
+color: white;
+background-color: gray;
+font-family: sans-serif;
+outline-style: inset;
+outline-width: 2px;
+outline-color: black;
+}
+.toolbar:hover {
+color: white;
+background-color: grey;
+font-family: sans-serif;
+outline-style: outset;
+outline-width: 3px;
+outline-color: black;
+}

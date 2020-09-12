@@ -1,0 +1,48 @@
+	TOOLWARE+
+
+Current vers: v1.0.0
+Files contained:
+	- toolware-plus.js
+	- toolware-plus.css
+	- toolware-plus.html
+	- toolware-plus.png
+	- toolware-plus.txt
+	- Manual/Toolbar-manual.html
+	- uninstall/ uninstall.bat
+
+Description:
+Toolware is built for web developers who want ot allow their visitors to
+alter the way they see the page to their needs. Similar to Bootstrap,
+you can host Toolware on your server, then use the installation 
+insructions below to use it on your page.
+
+INSTALLATION:
+
+LOCAL HOSTING
+
+Download the Latest Toolware Basic release from:
+https://github.com/TheGreatFoxxy/Toolware/releases
+
+You will receive a .zip file. Assuming your index is at parent directory, 
+Extract it to the path below:
+./toolware+/
+
+Insert these lines of code into your pages' HEAD block:
+
+<link rel="style" href="./toolware+/toolware-plus.css">
+<link href="./toolware+/toolware-plus.js" rel="preload" as="script">
+<link href="./toolware+/toolware.png" rel="preload" as="image">
+
+Insert this line of code into your SCRIPT block:
+
+<script src="./toolware+/toolware-plus.js"></script>
+
+Insert this line of code into your STYLE block:
+
+<style src="./toolware+/toolware-plus.css"></style>
+
+Insert the lines of code enclosed in toolware-plus.html into your BODY block wherever you want your toolbar to be.
+
+
+LICENSING:
+Not Yet Licensed
