@@ -7,10 +7,23 @@
 background-color: black;
 color: white;
 }
+.dark-mode-button:active {
+    background-color: black;
+    color: white;
+    outline-width: 5px;
+    outline-style: outline;
+    outline-color: green;
 .bright-mode {
 background-color: yellow;
 color: black;
 }
+.bright-mode-button:active {
+    background-color: yellow;
+    color: black;
+    outline: 5px;
+    outline-style: outline;
+    outline-color: green;
+    }
 .red-mode {
 background-color: red;
 color: black;
@@ -168,6 +181,7 @@ font-family: sans-serif;
 outline-style: inset;
 outline-width: 2px;
 outline-color: black;
+border-radius: 12px;
 }
 .toolbar:hover {
 color: white;
@@ -176,4 +190,5 @@ font-family: sans-serif;
 outline-style: outset;
 outline-width: 3px;
 outline-color: black;
+border-radius: 12px;
 }
